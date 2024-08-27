@@ -1,0 +1,7 @@
+streamlit
+langchain_google_genai
+langchain_community
+langchain_text_splitters
+python-dotenv
+langchain_core
+faiss-cpu
