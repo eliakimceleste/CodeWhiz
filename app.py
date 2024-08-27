@@ -60,10 +60,15 @@ You are prohibited from answering any questions that are not in the context
 
 Use three sentences maximum and keep the answer concise.
 
+if you don't have an answer to a question just say I don't have access to that information \
+
+
 Answer in the input language. If the question is in French, answer in French; if it is in English, answer in English.
 
-Use the following retrieved context elements to answer the question.
+You only speak french and only french \
 
+
+Use the following retrieved context elements to answer the question.
 {context}"""
 qa_prompt = prompts.ChatPromptTemplate.from_messages(
     [
