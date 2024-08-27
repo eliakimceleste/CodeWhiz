@@ -25,7 +25,7 @@ def load_llm():
 
 
 def load_vectorstore():
-    vectorstore = vectorstores.FAISS.load_local("vectorstore.db", load_embedding(), allow_dangerous_deserialization=True)
+    vectorstore = vectorstores.FAISS.load_local("vectorstore.db1", load_embedding(), allow_dangerous_deserialization=True)
     return vectorstore
 
 contextualize_q_system_prompt = """Given a chat history and the latest user question \
