@@ -23,7 +23,7 @@ def load_embedding():
 def load_llm():
     return ChatGoogleGenerativeAI(model="gemini-1.5-flash", api_key=google_api_key)
 
-@st.cache_resource
+
 def load_vectorstore():
     vectorstore = vectorstores.FAISS.load_local("vectorstore.db", load_embedding(), allow_dangerous_deserialization=True)
     return vectorstore
