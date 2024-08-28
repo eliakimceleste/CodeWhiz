@@ -107,7 +107,7 @@ for message in st.session_state.messages:
 
 with st.sidebar:
     st.title("Historique des Conversations")
-    linkedin_url = "https://www.linkedin.com/in/eliakimceleste/"
+    linkedin_url = "https://www.linkedin.com/in/eliakim-celeste-0a791b275/"
     st.markdown(f'<div class="footer">Made by <a href="{linkedin_url}" target="_blank" position:fixed; left:0; bottom:0; width:100%; background-color:#f1f1f1; padding:10px; style="color: brown; text-style: italic; text-align: center">Eliakim GOUNON </a></div>',unsafe_allow_html=True)
    
 
