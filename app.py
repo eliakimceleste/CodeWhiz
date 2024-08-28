@@ -11,6 +11,7 @@ import os
 load_dotenv()
 st.set_page_config(page_title="Codewhiz Bot", page_icon="🤖")
 st.title("CodeWhiz")
+st.write("Salut. Je suis CodeWhiz, expert sur les questions liées au code du numérique en République du Bénin.")
 
 
 google_api_key = os.environ.get("GOOGLE_API_KEY")
@@ -106,7 +107,7 @@ for message in st.session_state.messages:
 
 with st.sidebar:
     st.title("Historique des Conversations")
-   
+    
 
 # with st.chat_message("user"):
 #     st.write("Hel")
@@ -141,3 +142,6 @@ if input := st.chat_input("Entrer votre requête"):
     # Add assistant input    to chat history
     st.session_state.messages.append({"role": "assistant", "content": rag["answer"] })
     print(st.session_state.messages)
+
+
+
